@@ -1,4 +1,17 @@
 public class Problems {
+    // Problem 1.1
+    public static boolean isUnique(String str) {
+        int[] freq = new int[256];
+
+        for (int i = 0; i < str.length(); i++) {
+            int index = (int) str.charAt(i);
+            if (freq[index] != 0) {
+                return false;
+            }
+            freq[index] += 1;
+        }
+        return true;
+    }
 
     // Problem 1.2
     public static boolean checkPermutation(String str1, String str2) {
@@ -30,6 +43,7 @@ public class Problems {
         String str1 = "TAP";
         String str2 = "RAT";
 
-        System.out.println(checkPermutation(str1, str2));
+        // System.out.println(checkPermutation(str1, str2));
+        System.out.println(isUnique(str1));
     }
 }
