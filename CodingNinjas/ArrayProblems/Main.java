@@ -19,16 +19,16 @@ class Main {
         // System.out.println();
 
         // Calling SwapAlternate
-        int[] arr = { 9, 3, 6, 12, 4, 32, 5, 11, 19 };
-        SwapAlternate.swap(arr);
-        for (int elem : arr) {
-        System.out.print(elem + " ");
-        }
-        System.out.println();
+        // int[] arr = { 9, 3, 6, 12, 4, 32, 5, 11, 19 };
+        // SwapAlternate.swap(arr);
+        // for (int elem : arr) {
+        // System.out.print(elem + " ");
+        // }
+        // System.out.println();
 
         // Calling FindDuplicate
-        // int[] arr = {0, 7, 2, 5, 4, 7, 1, 3, 6};
-        // System.out.println(FindDuplicate.find(arr));
+        int[] arr = {0, 7, 2, 5, 4, 7, 1, 3, 6};
+        System.out.println(FindDuplicate.find(arr));
 
         // Calling FindUnique
         // int[] arr = { 1, 2, 2, 1, 4, 4, 3, 3, 5 };
