@@ -1,8 +1,8 @@
 class Main {
     public static void main(String[] args) {
         // Calling ArraySum
-        // int[] arr = { 1, 2, 3, 4, 5 };
-        // System.out.println("Sum : " + ArraySum.getSum(arr));
+        int[] arr = { 1, 2, 3, 4, 5 };
+        System.out.println("Sum : " + ArraySum.getSum(arr));
 
         // // Calling LinearSearch
         // int[] arr = { 1, 2, 3, 9, 8, 7, 6, 4, 5 };
@@ -52,8 +52,8 @@ class Main {
         // System.out.println();
 
         // Calling PairSum
-        int[] arr = { 1, 3, 6, 2, 5, 4, 3, 2, 4 };
-        int target = 7;
-        System.out.println(PairSum.getPair(arr, target));
+        // int[] arr = { 1, 3, 6, 2, 5, 4, 3, 2, 4 };
+        // int target = 7;
+        // System.out.println(PairSum.getPair(arr, target));
     }
 }
