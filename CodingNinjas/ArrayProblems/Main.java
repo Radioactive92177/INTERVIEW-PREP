@@ -11,20 +11,20 @@ class Main {
         // target));
 
         // Calling ArrangeNumbers
-        int extent = 6;
-        int[] arr = ArrangeNumbers.arrange(extent);
-        for (int elem : arr) {
-            System.out.print(elem + " ");
-        }
-        System.out.println();
-
-        // Calling SwapAlternate
-        // int[] arr = { 9, 3, 6, 12, 4, 32, 5, 11, 19 };
-        // SwapAlternate.swap(arr);
+        // int extent = 6;
+        // int[] arr = ArrangeNumbers.arrange(extent);
         // for (int elem : arr) {
-        // System.out.print(elem + " ");
+        //     System.out.print(elem + " ");
         // }
         // System.out.println();
+
+        // Calling SwapAlternate
+        int[] arr = { 9, 3, 6, 12, 4, 32, 5, 11, 19 };
+        SwapAlternate.swap(arr);
+        for (int elem : arr) {
+        System.out.print(elem + " ");
+        }
+        System.out.println();
 
         // Calling FindDuplicate
         // int[] arr = {0, 7, 2, 5, 4, 7, 1, 3, 6};
