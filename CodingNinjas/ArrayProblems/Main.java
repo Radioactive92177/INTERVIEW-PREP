@@ -4,18 +4,19 @@ class Main {
         // int[] arr = { 1, 2, 3, 4, 5 };
         // System.out.println("Sum : " + ArraySum.getSum(arr));
 
-        // Calling LinearSearch
-        int[] arr = { 1, 2, 3, 9, 8, 7, 6, 4, 5 };
-        int target = 7;
-        System.out.println("Element found at index : " + LinearSearch.search(arr, target));
+        // // Calling LinearSearch
+        // int[] arr = { 1, 2, 3, 9, 8, 7, 6, 4, 5 };
+        // int target = 7;
+        // System.out.println("Element found at index : " + LinearSearch.search(arr,
+        // target));
 
         // Calling ArrangeNumbers
-        // int extent = 6;
-        // int[] arr = ArrangeNumbers.arrange(extent);
-        // for (int elem : arr) {
-        // System.out.print(elem + " ");
-        // }
-        // System.out.println();
+        int extent = 6;
+        int[] arr = ArrangeNumbers.arrange(extent);
+        for (int elem : arr) {
+            System.out.print(elem + " ");
+        }
+        System.out.println();
 
         // Calling SwapAlternate
         // int[] arr = { 9, 3, 6, 12, 4, 32, 5, 11, 19 };
