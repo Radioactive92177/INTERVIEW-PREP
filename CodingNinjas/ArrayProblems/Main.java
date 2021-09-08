@@ -1,14 +1,13 @@
 class Main {
     public static void main(String[] args) {
         // Calling ArraySum
-        int[] arr = { 1, 2, 3, 4, 5 };
-        System.out.println("Sum : " + ArraySum.getSum(arr));
+        // int[] arr = { 1, 2, 3, 4, 5 };
+        // System.out.println("Sum : " + ArraySum.getSum(arr));
 
         // Calling LinearSearch
-        // int[] arr = { 1, 2, 3, 9, 8, 7, 6, 4, 5 };
-        // int target = 7;
-        // System.out.println("Element found at index : " + LinearSearch.search(arr,
-        // target));
+        int[] arr = { 1, 2, 3, 9, 8, 7, 6, 4, 5 };
+        int target = 7;
+        System.out.println("Element found at index : " + LinearSearch.search(arr, target));
 
         // Calling ArrangeNumbers
         // int extent = 6;
@@ -38,7 +37,7 @@ class Main {
         // int[] arr = { 0, 1, 1, 0, 0, 1, 0, 1 };
         // Sort01.sort(arr);
         // for (int elem : arr) {
-        //     System.out.print(elem + " ");
+        // System.out.print(elem + " ");
         // }
         // System.out.println();
 
@@ -47,7 +46,7 @@ class Main {
         // int[] arr2 = { 2, 4, 3, 2, 7 };
         // int[] output = ArrayIntersection.getIntersection(arr1, arr2);
         // for (int elem : output) {
-        //     System.out.print(elem + " ");
+        // System.out.print(elem + " ");
         // }
         // System.out.println();
 
