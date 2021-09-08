@@ -27,12 +27,12 @@ class Main {
         // System.out.println();
 
         // Calling FindDuplicate
-        int[] arr = {0, 7, 2, 5, 4, 7, 1, 3, 6};
-        System.out.println(FindDuplicate.find(arr));
+        // int[] arr = {0, 7, 2, 5, 4, 7, 1, 3, 6};
+        // System.out.println(FindDuplicate.find(arr));
 
         // Calling FindUnique
-        // int[] arr = { 1, 2, 2, 1, 4, 4, 3, 3, 5 };
-        // System.out.println(FindUnique.getUnique(arr));
+        int[] arr = { 1, 2, 2, 1, 4, 4, 3, 3, 5 };
+        System.out.println(FindUnique.getUnique(arr));
 
         // Calling Sort01
         // int[] arr = { 0, 1, 1, 0, 0, 1, 0, 1 };
