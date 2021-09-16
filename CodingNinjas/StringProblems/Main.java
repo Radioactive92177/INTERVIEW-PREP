@@ -30,7 +30,11 @@ public class Main {
         // System.out.println(ReverseEachWord.reverse(str));
 
         // Calling ReverseStringWordWise
-        String str = "I love you";
-        System.out.println(ReverseStringWordWise.reverse(str));
+        // String str = "I love you";
+        // System.out.println(ReverseStringWordWise.reverse(str));
+
+        // Calling CompressString
+        String str = "xxxxxx";
+        System.out.println(CompressString.compress(str));
     }
 }
