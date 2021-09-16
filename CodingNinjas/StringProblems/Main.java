@@ -22,7 +22,11 @@ public class Main {
         // System.out.println(HighestOccuringCharacter.getHighest(str));
 
         // Calling CheckPermutation
-        String str1 = "abcd", str2 = "bcda";
-        System.out.println(CheckPermutation.check(str1, str2));
+        // String str1 = "abcd", str2 = "bcda";
+        // System.out.println(CheckPermutation.check(str1, str2));
+
+        // Calling ReverseEachWord
+        String str = "I love you";
+        System.out.println(ReverseEachWord.reverse(str));
     }
 }
