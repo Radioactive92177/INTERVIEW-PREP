@@ -1,4 +1,4 @@
-public class Main{
+public class Main {
     public static void main(String[] args) {
         // Calling CountWords
         // String line = "I Love you";
@@ -9,7 +9,12 @@ public class Main{
         // System.out.println(StringPalindrome.check(str));
 
         // Calling RemoveConsecDups
-        String str = "aaabbcccd";
-        System.out.println(RemoveConsecDups.remove(str));
+        // String str = "aaabbcccd";
+        // System.out.println(RemoveConsecDups.remove(str));
+
+        // Calling RemoveCharacter
+        // String str = "Sanjula";
+        // char x = 'a';
+        // System.out.println(RemoveCharacter.remove(str, x));
     }
 }
