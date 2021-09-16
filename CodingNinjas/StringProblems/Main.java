@@ -13,8 +13,8 @@ public class Main {
         // System.out.println(RemoveConsecDups.remove(str));
 
         // Calling RemoveCharacter
-        // String str = "Sanjula";
-        // char x = 'a';
-        // System.out.println(RemoveCharacter.remove(str, x));
+        String str = "Sanjula";
+        char x = 'a';
+        System.out.println(RemoveCharacter.remove(str, x));
     }
 }
