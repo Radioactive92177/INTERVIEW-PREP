@@ -26,7 +26,11 @@ public class Main {
         // System.out.println(CheckPermutation.check(str1, str2));
 
         // Calling ReverseEachWord
+        // String str = "I love you";
+        // System.out.println(ReverseEachWord.reverse(str));
+
+        // Calling ReverseStringWordWise
         String str = "I love you";
-        System.out.println(ReverseEachWord.reverse(str));
+        System.out.println(ReverseStringWordWise.reverse(str));
     }
 }
