@@ -5,7 +5,11 @@ public class Main{
         // System.out.println(CountWords.count(line));
 
         // Calling StringPalindrome
-        String str = "Hannah";
-        System.out.println(StringPalindrome.check(str));
+        // String str = "Hannah";
+        // System.out.println(StringPalindrome.check(str));
+
+        // Calling RemoveConsecDups
+        String str = "aaabbcccd";
+        System.out.println(RemoveConsecDups.remove(str));
     }
 }
