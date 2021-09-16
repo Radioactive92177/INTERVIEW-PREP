@@ -18,7 +18,11 @@ public class Main {
         // System.out.println(RemoveCharacter.remove(str, x));
 
         // Calling HighestOccuringCharacter
-        String str = "abbcddddde";
-        System.out.println(HighestOccuringCharacter.getHighest(str)); 
+        // String str = "abbcddddde";
+        // System.out.println(HighestOccuringCharacter.getHighest(str));
+
+        // Calling CheckPermutation
+        String str1 = "abcd", str2 = "bcda";
+        System.out.println(CheckPermutation.check(str1, str2));
     }
 }
