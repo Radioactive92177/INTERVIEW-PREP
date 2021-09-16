@@ -34,7 +34,11 @@ public class Main {
         // System.out.println(ReverseStringWordWise.reverse(str));
 
         // Calling CompressString
-        String str = "xxxxxx";
-        System.out.println(CompressString.compress(str));
+        // String str = "xxxxxx";
+        // System.out.println(CompressString.compress(str));
+
+        // Calling PrintAllSubstrings
+        String str = "love";
+        PrintAllSubstrings.print(str);
     }
 }
