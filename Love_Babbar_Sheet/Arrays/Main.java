@@ -13,8 +13,16 @@ public class Main{
         // System.out.println(FindMaxMin.find(arr)[0] + " " + FindMaxMin.find(arr)[1]);
 
         // Calling Sort012
-        int[] arr = {2,1,0,0,1,0,2};
-        Sort012.sort(arr);
+        // int[] arr = {2,1,0,0,1,0,2};
+        // Sort012.sort(arr);
+        //
+        // for (int elem : arr) {
+        //     System.out.print(elem + " ");
+        // }System.out.println();
+
+        // Calling MoveNegative
+        int[] arr = {-12, 11, -13, -5, 6, -7, 5, -3, -6};
+        MoveNegatives.move(arr);
 
         for (int elem : arr) {
             System.out.print(elem + " ");
