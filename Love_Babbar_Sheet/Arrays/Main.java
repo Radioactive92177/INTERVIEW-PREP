@@ -21,10 +21,24 @@ public class Main{
         // }System.out.println();
 
         // Calling MoveNegative
-        int[] arr = {-12, 11, -13, -5, 6, -7, 5, -3, -6};
-        MoveNegatives.move(arr);
+        // int[] arr = {-12, 11, -13, -5, 6, -7, 5, -3, -6};
+        // MoveNegatives.move(arr);
+        //
+        // for (int elem : arr) {
+        //     System.out.print(elem + " ");
+        // }System.out.println();
 
-        for (int elem : arr) {
+        // Calling FindUnionAndInterSec
+        int[] arr1 = {1,2,3,4};
+        int[] arr2 = {1,2,3,4,5,6};
+        int[] union = FindUnionAndInterSec.findUnion(arr1, arr2);
+        int[] intersection = FindUnionAndInterSec.findIntersec(arr1, arr2);
+
+        for (int elem : union) {
+            System.out.print(elem + " ");
+        }System.out.println();
+
+        for (int elem : intersection) {
             System.out.print(elem + " ");
         }System.out.println();
     }
