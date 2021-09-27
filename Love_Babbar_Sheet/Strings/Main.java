@@ -13,7 +13,13 @@ public class Main{
         // System.out.println(PalindromeString.check(str));
 
         // Calling FindDuplicate
-        String str = "abbccd";
-        System.out.println(FindDuplicate.find(str));
+        // String str = "abbccd";
+        // System.out.println(FindDuplicate.find(str));
+
+        // Calling CheckRotationOfStrings
+        String str1 = "abcd";
+        String str2 = "cdcb";
+
+        System.out.println(CheckRotationOfStrings.check(str1, str2));
     }
 }
