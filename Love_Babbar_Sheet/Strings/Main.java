@@ -9,7 +9,11 @@ public class Main{
         // }System.out.println();
 
         // Calling PalindromeString
-        String str = "abba";
-        System.out.println(PalindromeString.check(str));
+        // String str = "abba";
+        // System.out.println(PalindromeString.check(str));
+
+        // Calling FindDuplicate
+        String str = "abbccd";
+        System.out.println(FindDuplicate.find(str));
     }
 }
