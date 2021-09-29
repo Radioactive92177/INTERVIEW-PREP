@@ -30,11 +30,19 @@ public class Main{
         // }System.out.println();
 
         // Calling MergeTwoSortedArray
-        int[] arr1 = {1,2,3};
-        int[] arr2 = {1,2,4,5};
-        int[] output = MergeTwoSortedArray.merge(arr1, arr2);
+        // int[] arr1 = {1,2,3};
+        // int[] arr2 = {1,2,4,5};
+        // int[] output = MergeTwoSortedArray.merge(arr1, arr2);
+        //
+        // for (int elem : output) {
+        //     System.out.print(elem + " ");
+        // }System.out.println();
 
-        for (int elem : output) {
+        // Calling PushZeroes
+        int[] arr = {1,0,2,5,0,4,0,6};
+        PushZeroes.push(arr);
+
+        for(int elem : arr){
             System.out.print(elem + " ");
         }System.out.println();
     }
