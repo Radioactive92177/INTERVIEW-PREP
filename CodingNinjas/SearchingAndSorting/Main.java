@@ -22,10 +22,19 @@ public class Main{
         // }System.out.println();
 
         // Calling InsertionSort
-        int[] arr = {3,2,4,1,5,7,6};
-        InsertionSort.sort(arr);
+        // int[] arr = {3,2,4,1,5,7,6};
+        // InsertionSort.sort(arr);
+        //
+        // for (int elem : arr) {
+        //     System.out.print(elem + " ");
+        // }System.out.println();
 
-        for (int elem : arr) {
+        // Calling MergeTwoSortedArray
+        int[] arr1 = {1,2,3};
+        int[] arr2 = {1,2,4,5};
+        int[] output = MergeTwoSortedArray.merge(arr1, arr2);
+
+        for (int elem : output) {
             System.out.print(elem + " ");
         }System.out.println();
     }
