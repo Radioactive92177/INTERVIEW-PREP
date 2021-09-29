@@ -39,10 +39,18 @@ public class Main{
         // }System.out.println();
 
         // Calling PushZeroes
-        int[] arr = {1,0,2,5,0,4,0,6};
-        PushZeroes.push(arr);
+        // int[] arr = {1,0,2,5,0,4,0,6};
+        // PushZeroes.push(arr);
+        //
+        // for(int elem : arr){
+        //     System.out.print(elem + " ");
+        // }System.out.println();
 
-        for(int elem : arr){
+        // Calling RotateArray
+        int[] arr = {1,2,3,4,5};
+        RotateArray.rotate(arr, 2);
+
+        for (int elem : arr) {
             System.out.print(elem + " ");
         }System.out.println();
     }
