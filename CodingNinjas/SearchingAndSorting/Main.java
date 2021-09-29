@@ -47,11 +47,15 @@ public class Main{
         // }System.out.println();
 
         // Calling RotateArray
-        int[] arr = {1,2,3,4,5};
-        RotateArray.rotate(arr, 2);
+        // int[] arr = {1,2,3,4,5};
+        // RotateArray.rotate(arr, 2);
+        //
+        // for (int elem : arr) {
+        //     System.out.print(elem + " ");
+        // }System.out.println();
 
-        for (int elem : arr) {
-            System.out.print(elem + " ");
-        }System.out.println();
+        // Calling SecondLargest
+        int[] arr = {1,6,3,2,7,5,4};
+        System.out.println(SecondLargest.getNum(arr));
     }
 }
