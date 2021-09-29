@@ -63,10 +63,19 @@ public class Main{
         // System.out.println(CheckRotation.getIndex(arr));
 
         // Calling Sort012
-        int[] arr = {0,1,0,2,0,1,0,2};
-        Sort012.sort(arr);
+        // int[] arr = {0,1,0,2,0,1,0,2};
+        // Sort012.sort(arr);
+        //
+        // for (int elem : arr) {
+        //     System.out.print(elem + " ");
+        // }System.out.println();
 
-        for (int elem : arr) {
+        // Calling SumOfTwoArray
+        int[] arr1 = {8,5,2};
+        int[] arr2 = {1,3};
+        int[] ans = SumOfTwoArray.getSum(arr1, arr2);
+
+        for (int elem : ans) {
             System.out.print(elem + " ");
         }System.out.println();
     }
