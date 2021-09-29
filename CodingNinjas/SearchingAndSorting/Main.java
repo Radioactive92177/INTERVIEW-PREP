@@ -14,8 +14,16 @@ public class Main{
         // }System.out.println();
 
         // Calling BubbleSort
+        // int[] arr = {3,2,4,1,5,7,6};
+        // BubbleSort.sort(arr);
+        //
+        // for (int elem : arr) {
+        //     System.out.print(elem + " ");
+        // }System.out.println();
+
+        // Calling InsertionSort
         int[] arr = {3,2,4,1,5,7,6};
-        BubbleSort.sort(arr);
+        InsertionSort.sort(arr);
 
         for (int elem : arr) {
             System.out.print(elem + " ");
