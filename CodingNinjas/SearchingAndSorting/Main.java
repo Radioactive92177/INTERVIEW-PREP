@@ -59,7 +59,15 @@ public class Main{
         // System.out.println(SecondLargest.getNum(arr));
 
         // Calling CheckRotation
-        int[] arr = {5,6,1,2,3,4};
-        System.out.println(CheckRotation.getIndex(arr));
+        // int[] arr = {5,6,1,2,3,4};
+        // System.out.println(CheckRotation.getIndex(arr));
+
+        // Calling Sort012
+        int[] arr = {0,1,0,2,0,1,0,2};
+        Sort012.sort(arr);
+
+        for (int elem : arr) {
+            System.out.print(elem + " ");
+        }System.out.println();
     }
 }
