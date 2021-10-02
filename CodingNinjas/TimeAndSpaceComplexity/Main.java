@@ -24,7 +24,16 @@ public class Main{
         // System.out.println(UniqueElement.find(arr));
 
         // Calling Duplicate
-        int[] arr = {1,2,3,4,5,6,7,7};
-        System.out.println(Duplicate.find(arr));
+        // int[] arr = {1,2,3,4,5,6,7,7};
+        // System.out.println(Duplicate.find(arr));
+
+        // Calling PairSum
+        int[] arr = {1,2,3,4,5};
+        int sum = 5;
+        int[] output = PairSum.getPair(arr, sum);
+
+        for(int elem : output){
+            System.out.print(elem + " ");
+        }System.out.println();
     }
 }
