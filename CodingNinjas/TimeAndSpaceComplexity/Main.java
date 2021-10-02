@@ -20,7 +20,11 @@ public class Main{
         // }System.out.println();
 
         // Calling UniqueElement
-        int[] arr = {2,3,2,4,5,5,4};
-        System.out.println(UniqueElement.find(arr));
+        // int[] arr = {2,3,2,4,5,5,4};
+        // System.out.println(UniqueElement.find(arr));
+
+        // Calling Duplicate
+        int[] arr = {1,2,3,4,5,6,7,7};
+        System.out.println(Duplicate.find(arr));
     }
 }
