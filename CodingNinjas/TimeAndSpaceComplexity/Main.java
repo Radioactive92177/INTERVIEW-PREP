@@ -10,13 +10,17 @@ public class Main{
         // ArrayIntersection.printIntersection(arr1, arr2);
 
         // Calling RotateArray
-        int[] arr = {1,2,3,4,5,6,7};
-        int n = 2;
+        // int[] arr = {1,2,3,4,5,6,7};
+        // int n = 2;
+        //
+        // RotateArray.rotate(arr, n);
+        //
+        // for (int elem : arr) {
+        //     System.out.print(elem + " ");
+        // }System.out.println();
 
-        RotateArray.rotate(arr, n);
-
-        for (int elem : arr) {
-            System.out.print(elem + " ");
-        }System.out.println();
+        // Calling UniqueElement
+        int[] arr = {2,3,2,4,5,5,4};
+        System.out.println(UniqueElement.find(arr));
     }
 }
